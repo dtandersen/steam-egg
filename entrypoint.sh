@@ -1,9 +1,8 @@
 #!/bin/bash -x
 set -e
 
-sleep 5
+sleep 2
 env
-ls -al
 
 CONTAINER_HOME=/home/container
 
