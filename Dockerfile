@@ -2,7 +2,7 @@ FROM debian:latest
 MAINTAINER https://github.com/dtandersen/steam-egg
 
 RUN apt-get update && \
-  apt-get install wget lib32gcc1 -y && \
+  apt-get install wget lib32gcc1 ca-certificates -y && \
   adduser --disabled-password --home /home/container --gecos "" container
 
 USER container
