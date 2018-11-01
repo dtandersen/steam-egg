@@ -4,6 +4,7 @@ set -e
 sleep 2
 env
 
+HOME=/home/container
 CONTAINER_HOME=/home/container
 
 if [ ! -d ${CONTAINER_HOME}/steamcmd ]; then
