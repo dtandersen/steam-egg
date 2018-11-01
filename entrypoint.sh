@@ -1,6 +1,7 @@
 #!/bin/bash -x
 set -e
 
+sleep 5
 env
 ls -al
 
@@ -16,7 +17,7 @@ if [ ! -d ${CONTAINER_HOME}/steamcmd ]; then
 fi
 
 if [ -n "${BETA}" ]; then
-  EXTRA_ARGS=-beta ${BETA}
+  EXTRA_ARGS="-beta ${BETA}"
 fi
 
 ${CONTAINER_HOME}/steamcmd/steamcmd.sh +login anonymous +force_install_dir ${CONTAINER_HOME} +app_update 600760 ${EXTRA_ARGS} +quit
