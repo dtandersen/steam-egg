@@ -3,6 +3,7 @@ set -e
 
 sleep 2
 env
+id
 
 HOME=/home/container
 CONTAINER_HOME=/home/container
