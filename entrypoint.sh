@@ -2,9 +2,9 @@
 set -e
 
 env
-pwd
+ls -al
 
-export CONTAINER_HOME=/home/container
+CONTAINER_HOME=/home/container
 
 if [ ! -d ${CONTAINER_HOME}/steamcmd ]; then
   mkdir -p ${CONTAINER_HOME}/steamcmd
