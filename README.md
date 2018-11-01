@@ -1,7 +1,7 @@
-# Stationeers Dedicated Server [![](https://images.microbadger.com/badges/image/dtandersen/steam-egg.svg)](https://microbadger.com/images/dtandersen/steam-egg "Get your own image badge on microbadger.com") [![Docker Pulls](https://img.shields.io/docker/pulls/dtandersen/steam-egg.svg)](https://hub.docker.com/r/dtandersen/steam-egg/) [![Docker Stars](https://img.shields.io/docker/stars/dtandersen/steam-egg.svg)](https://hub.docker.com/r/dtandersen/steam-egg/)
+# Pterodactyl Steam Egg [![](https://images.microbadger.com/badges/image/dtandersen/steam-egg.svg)](https://microbadger.com/images/dtandersen/steam-egg "Get your own image badge on microbadger.com") [![Docker Pulls](https://img.shields.io/docker/pulls/dtandersen/steam-egg.svg)](https://hub.docker.com/r/dtandersen/steam-egg/) [![Docker Stars](https://img.shields.io/docker/stars/dtandersen/steam-egg.svg)](https://hub.docker.com/r/dtandersen/steam-egg/)
 
-Play [Stationeers](https://store.steampowered.com/app/544550/Stationeers/) with your friends!
+A [Pterodactyl](https://pterodactyl.io/) image for Steam games.
 
 ## Usage
 
-Download [egg](https://github.com/dtandersen/pterodactyl-eggs) and import into Pterodactyl.
+Import an [egg](https://github.com/dtandersen/pterodactyl-eggs) into Pterodactyl.
