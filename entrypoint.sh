@@ -10,7 +10,7 @@ CONTAINER_HOME=/home/container
 
 if [ ! -d ${CONTAINER_HOME}/steamcmd ]; then
   mkdir -p ${CONTAINER_HOME}/steamcmd
-  curl https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz | tar -xz -C ${CONTAINER_HOME}/steamcmd
+  curl -s https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz | tar -xz -C ${CONTAINER_HOME}/steamcmd
 fi
 
 if [ -n "${BETA}" ]; then
